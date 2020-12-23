@@ -1,0 +1,139 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 9px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header-left {
+    margin-left: 10px;
+}
+
+.header-right {
+    margin-right: 10px;
+}
+
+.header-right ul li,
+.header-left ul li{
+    display: inline;
+    margin: 3px;
+}
+
+.header-right a,
+.header-left a {
+    color: rgb(161, 160, 160);
+    text-decoration: none;   
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.header-right ul li a:hover,
+.header-left ul li a:hover {
+    color: white;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 540;
+    /* position: sticky; */
+    /* top: 0; */
+    /* background-color: yellow; */
+}
+
+.head-bot-left ul li,
+.head-bot-right ul li{
+    display: inline;
+    margin: 7px;
+}
+
+.head-bot-right a,
+.head-bot-left a {
+    color: rgb(161, 160, 160);
+    text-decoration: none;   
+}
+
+.head-bot-right a:hover,
+.head-bot-left ul li a:hover {
+    color: black;
+}
+
+.head-bot-right i {
+    font-size: 15px;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    
+}
+
+.news {
+    background-color:aqua;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.tnw {
+    grid-row: span 2;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/1-copy-26-796x417.jpg");
+
+}
+
+.latest {
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+
+
+}
+
+.funding {
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.color {
+    background-color: aquamarine;
+}
+
+.big {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px 50px;
+}
+
+.deal-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  grid-gap: 10px;
+  margin: 20px 50px;
+}
+
+.foot {
+  background-color: #131313;
+  padding: 50px;
+}
